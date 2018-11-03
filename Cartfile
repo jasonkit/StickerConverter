@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" ~> 4.7.3
+github "ReactiveX/RxSwift" ~> 4.3.1
+github "mxcl/PromiseKit" ~> 6.5.2
+github "SnapKit/SnapKit" ~> 4.2.0
+github "RxSwiftCommunity/RxDataSources" ~> 3.1.0
+github "ibireme/YYImage" ~> 1.0.4
