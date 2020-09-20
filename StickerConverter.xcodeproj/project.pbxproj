@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18142411250E448800C7E9E7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CC54F2185E3FD0037579D /* Alamofire.framework */; };
+		18142415250E448800C7E9E7 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CC5472185E3FD0037579D /* PromiseKit.framework */; };
+		18142419250E448800C7E9E7 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CC54C2185E3FD0037579D /* RxCocoa.framework */; };
+		1814241D250E448800C7E9E7 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CC5482185E3FD0037579D /* RxSwift.framework */; };
+		18142421250E448800C7E9E7 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CC54B2185E3FD0037579D /* SnapKit.framework */; };
 		183CC55B2185F1C10037579D /* TelegramAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CC55A2185F1C10037579D /* TelegramAPIClient.swift */; };
 		183CC55D2185F9410037579D /* SCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CC55C2185F9410037579D /* SCError.swift */; };
 		183CC55F218680CF0037579D /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CC55E218680CF0037579D /* JSON.swift */; };
@@ -14,27 +19,22 @@
 		183CC5652188967E0037579D /* convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CC5642188967E0037579D /* convert.swift */; };
 		183CC56C2188A6710037579D /* UIImage+ensureSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CC56B2188A6710037579D /* UIImage+ensureSize.swift */; };
 		183CC56E2188B0450037579D /* UIImage+WebP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CC56D2188B0450037579D /* UIImage+WebP.swift */; };
-		183CC5702188B19A0037579D /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CC56F2188B19A0037579D /* WebP.framework */; };
-		183CC57D2188B24D0037579D /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CC5732188B24D0037579D /* YYFrameImage.m */; };
-		183CC57E2188B24D0037579D /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CC5792188B24D0037579D /* YYSpriteSheetImage.m */; };
-		183CC57F2188B24D0037579D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CC57A2188B24D0037579D /* YYImage.m */; };
-		183CC5802188B24D0037579D /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CC57B2188B24D0037579D /* YYImageCoder.m */; };
-		183CC5812188B24D0037579D /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CC57C2188B24D0037579D /* YYAnimatedImageView.m */; };
+		18431547251724B8007CF673 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1843154125172118007CF673 /* WebP.framework */; };
 		185026CC2185D27400B43476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185026CB2185D27400B43476 /* AppDelegate.swift */; };
 		185026CE2185D27400B43476 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185026CD2185D27400B43476 /* MainViewController.swift */; };
 		185026D32185D27500B43476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185026D22185D27500B43476 /* Assets.xcassets */; };
 		185026D62185D27500B43476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185026D42185D27500B43476 /* LaunchScreen.storyboard */; };
+		18F41352250EDCDA00F8C22D /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F41351250EDCDA00F8C22D /* RxRelay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18142424250E4F1000C7E9E7 /* YYImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYImage.framework; path = Carthage/Build/iOS/YYImage.framework; sourceTree = "<group>"; };
 		183CC5472185E3FD0037579D /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 		183CC5482185E3FD0037579D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		183CC5492185E3FD0037579D /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
 		183CC54A2185E3FD0037579D /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		183CC54B2185E3FD0037579D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		183CC54C2185E3FD0037579D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		183CC54D2185E3FD0037579D /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		183CC54E2185E3FD0037579D /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		183CC54F2185E3FD0037579D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		183CC55A2185F1C10037579D /* TelegramAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramAPIClient.swift; sourceTree = "<group>"; };
 		183CC55C2185F9410037579D /* SCError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCError.swift; sourceTree = "<group>"; };
@@ -44,23 +44,14 @@
 		183CC56B2188A6710037579D /* UIImage+ensureSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ensureSize.swift"; sourceTree = "<group>"; };
 		183CC56D2188B0450037579D /* UIImage+WebP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+WebP.swift"; sourceTree = "<group>"; };
 		183CC56F2188B19A0037579D /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
-		183CC5722188B24C0037579D /* StickerConverter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StickerConverter-Bridging-Header.h"; sourceTree = "<group>"; };
-		183CC5732188B24D0037579D /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
-		183CC5742188B24D0037579D /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
-		183CC5752188B24D0037579D /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
-		183CC5762188B24D0037579D /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
-		183CC5772188B24D0037579D /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
-		183CC5782188B24D0037579D /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
-		183CC5792188B24D0037579D /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
-		183CC57A2188B24D0037579D /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
-		183CC57B2188B24D0037579D /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
-		183CC57C2188B24D0037579D /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		1843154125172118007CF673 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Carthage/Build/iOS/WebP.framework; sourceTree = "<group>"; };
 		185026C82185D27400B43476 /* StickerConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185026CB2185D27400B43476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185026CD2185D27400B43476 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		185026D22185D27500B43476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185026D52185D27500B43476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185026D72185D27600B43476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F41351250EDCDA00F8C22D /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +59,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183CC5702188B19A0037579D /* WebP.framework in Frameworks */,
+				18142419250E448800C7E9E7 /* RxCocoa.framework in Frameworks */,
+				1814241D250E448800C7E9E7 /* RxSwift.framework in Frameworks */,
+				18F41352250EDCDA00F8C22D /* RxRelay.framework in Frameworks */,
+				18142411250E448800C7E9E7 /* Alamofire.framework in Frameworks */,
+				18142415250E448800C7E9E7 /* PromiseKit.framework in Frameworks */,
+				18431547251724B8007CF673 /* WebP.framework in Frameworks */,
+				18142421250E448800C7E9E7 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,36 +75,19 @@
 		183CC5462185E3FC0037579D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1843154125172118007CF673 /* WebP.framework */,
+				18F41351250EDCDA00F8C22D /* RxRelay.framework */,
+				18142424250E4F1000C7E9E7 /* YYImage.framework */,
 				183CC56F2188B19A0037579D /* WebP.framework */,
 				183CC54F2185E3FD0037579D /* Alamofire.framework */,
-				183CC5492185E3FD0037579D /* Differentiator.framework */,
 				183CC5472185E3FD0037579D /* PromiseKit.framework */,
 				183CC54D2185E3FD0037579D /* RxBlocking.framework */,
 				183CC54C2185E3FD0037579D /* RxCocoa.framework */,
-				183CC54E2185E3FD0037579D /* RxDataSources.framework */,
 				183CC5482185E3FD0037579D /* RxSwift.framework */,
 				183CC54A2185E3FD0037579D /* RxTest.framework */,
 				183CC54B2185E3FD0037579D /* SnapKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		183CC5712188B21A0037579D /* YYImage */ = {
-			isa = PBXGroup;
-			children = (
-				183CC5752188B24D0037579D /* YYAnimatedImageView.h */,
-				183CC57C2188B24D0037579D /* YYAnimatedImageView.m */,
-				183CC5782188B24D0037579D /* YYFrameImage.h */,
-				183CC5732188B24D0037579D /* YYFrameImage.m */,
-				183CC5762188B24D0037579D /* YYImage.h */,
-				183CC57A2188B24D0037579D /* YYImage.m */,
-				183CC5772188B24D0037579D /* YYImageCoder.h */,
-				183CC57B2188B24D0037579D /* YYImageCoder.m */,
-				183CC5742188B24D0037579D /* YYSpriteSheetImage.h */,
-				183CC5792188B24D0037579D /* YYSpriteSheetImage.m */,
-				183CC5722188B24C0037579D /* StickerConverter-Bridging-Header.h */,
-			);
-			path = YYImage;
 			sourceTree = "<group>";
 		};
 		185026BF2185D27400B43476 = {
@@ -130,7 +110,6 @@
 		185026CA2185D27400B43476 /* StickerConverter */ = {
 			isa = PBXGroup;
 			children = (
-				183CC5712188B21A0037579D /* YYImage */,
 				185026CB2185D27400B43476 /* AppDelegate.swift */,
 				185026CD2185D27400B43476 /* MainViewController.swift */,
 				185026D22185D27500B43476 /* Assets.xcassets */,
@@ -180,7 +159,7 @@
 				TargetAttributes = {
 					185026C72185D27400B43476 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -224,25 +203,25 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/YYImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WebP.framework",
 			);
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Differentiator.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PromiseKit.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxDataSources.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/YYImage.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/WebP.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -255,18 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183CC57E2188B24D0037579D /* YYSpriteSheetImage.m in Sources */,
 				183CC563218894E30037579D /* models.swift in Sources */,
 				183CC5652188967E0037579D /* convert.swift in Sources */,
-				183CC57F2188B24D0037579D /* YYImage.m in Sources */,
 				183CC55D2185F9410037579D /* SCError.swift in Sources */,
-				183CC5802188B24D0037579D /* YYImageCoder.m in Sources */,
 				183CC55F218680CF0037579D /* JSON.swift in Sources */,
 				183CC56E2188B0450037579D /* UIImage+WebP.swift in Sources */,
-				183CC5812188B24D0037579D /* YYAnimatedImageView.m in Sources */,
 				185026CE2185D27400B43476 /* MainViewController.swift in Sources */,
 				183CC56C2188A6710037579D /* UIImage+ensureSize.swift in Sources */,
-				183CC57D2188B24D0037579D /* YYFrameImage.m in Sources */,
 				183CC55B2185F1C10037579D /* TelegramAPIClient.swift in Sources */,
 				185026CC2185D27400B43476 /* AppDelegate.swift in Sources */,
 			);
@@ -422,11 +396,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = idv.jasonkit.StickerConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonkit.StickerConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "StickerConverter/YYImage/StickerConverter-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,10 +423,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = idv.jasonkit.StickerConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonkit.StickerConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "StickerConverter/YYImage/StickerConverter-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

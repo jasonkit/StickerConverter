@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Foundation
 import PromiseKit
 
 extension JSONEncoder {

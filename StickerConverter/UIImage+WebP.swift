@@ -7,16 +7,17 @@
 //
 
 import UIKit
+import WebP
 
 extension UIImage {
     static func fromWebP(data: Data) -> UIImage {
-        let decoder = YYImageDecoder(data: data, scale: 1.0)!
-        return decoder.frame(at: 0, decodeForDisplay: true)!.image!
+        let decoder = WebPDecoder()
+        let cgImage = try! decoder.decode(data, options: WebPDecoderOptions())
+        return UIImage(cgImage: cgImage)
     }
 
     func toWebP() -> Data {
-        let encoder = YYImageEncoder(type: .webP)!
-        encoder.add(self, duration: 0.0)
-        return encoder.encode()!
+        let encoder = WebPEncoder()
+        return try! encoder.encode(self, config: .preset(.picture, quality: 100))
     }
 }

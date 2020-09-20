@@ -44,7 +44,9 @@ class StickerConverter {
         self.progress.accept("Converting Telegram stacker set to Whatsapp sticker pack")
         let promises = from.stickers.map { sticker in
             return Promise<WASticker> { resolver in
-                let data = sticker.image.toWebP().base64EncodedString()
+                let webp = sticker.image.toWebP()
+                print(webp.count)
+                let data = webp.base64EncodedString()
                 resolver.fulfill(WASticker(imageData: data, emojis: sticker.emojis))
             }
         }
